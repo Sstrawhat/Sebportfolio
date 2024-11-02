@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navigation{
+    height: 60px;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 1000;
+}
+.navigation-brand{
+    float: right;
+}
+.navigation .img-cloud {
+    position: fixed;
+    width: 50px;
+    margin-left: 10px;
+    height: 40px;
+    top: 10px;
+}
+.navigation .img-imegeine {
+    position: fixed;
+    top: 20px;
+    left: 70px;
+    height: 20px;
+}
+.navigation ul{
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+    padding: 15px;
+    font-family: calibri;
+    font-weight: 600;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: black    ;
+}
+.navigation .menu {
+    position: fixed;
+    right: 0px;
+    top: 5px;
+}
+
+/*Home*/
+#Home{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Home .content-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60vh;
+}
+
+#Home .main-content {
+    z-index: 100;
+    width: 60%;
+    display: flex;
+}
+#Home .img-human {
+    position: relative;
+    top: 25vh;
+    height: 60vh;
+}
+#Home .text-header {
+    font-family: calibri;
+    font-size: 25px;
+}
+#Home .text-detail {
+    font-family: calibri;
+    font-size: 20px;
+    text-indent: 50px;
+    text-align: justify;
+}
+#Home .text-content {
+    position: relative;
+    top: 45vh;
+}
+
+/*SKill*/
+
+#Skill {
+    height: 100vh;
+    position: relative;
+}
+
+#Skill .content-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60vh;
+}
+
+#Skill .main-content {
+    z-index: 100;
+    width: 60%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 15vh;
+}
+#Skill .main-content .flex{
+    display: flex;
+    align-items: center;
+}
+#Skill .img-human {
+    /* position: relative; */
+    height: 45vh;
+}
+#Skill .text-header {
+    font-family: calibri;
+    font-size: 25px;
+}
+#Skill .text-detail {
+    font-family: calibri;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0;
+    list-style-type: none;  
+}
+#Skill .text-content {
+    position: relative;
+    top: 0vh;
+}
+#Skill .skill-box {
+    list-style: none;
+    margin: 0px 50px 0px 50px;
+    position: relative;
+    top: 0vh;
+}
+#Skill .skill-box .skill-item {
+    width: 60px;
+    height: 60px;
+}
+#Skill .skill-box li {
+    margin-top: -5px;
+}
+#Skill .Other-Skill{
+    position: relative;
+    top: 15vh;
+    width: 90%;
+    margin: auto;
+}
+#Skill .Other-Skill h1{
+    font-weight: 600;
+    font-family: calibri;
+ 
+}
